@@ -1,0 +1,13 @@
+<problem display_name="Numerical response" linenum="10" tex_filename="./intro.tex">
+  <text>
+    <p>
+&#xB3D9;&#xC804;&#xC744; 10&#xBC88; &#xB358;&#xC9C8;&#xB54C;, &#xB3D9;&#xC804;&#xC758; &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC628; &#xC22B;&#xC790;&#xC640; &#xB4B7;&#xBA74;&#xC774; &#xB098;&#xC628; &#xACBD;&#xC6B0;&#xC758; &#xC22B;&#xC790;&#xAC00; &#xAC19;&#xC744; &#xD655;&#xB960;&#xC744; &#xAD6C;&#xD558;&#xB77C;. </p>
+    <p>
+      <numericalresponse answer="0.1">
+        <textline>
+          <responseparam type="tolerance" default="0.01"/>
+        </textline>
+      </numericalresponse>
+    </p>
+  </text>
+</problem>

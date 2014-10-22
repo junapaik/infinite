@@ -1,1 +1,3 @@
-<course number="BraveBrain.Infinite" display_name="Advanced Topics in Highschool Mathematics" semester="2014_Gauel" org="MITx"/>
+<course number="ClassInfinite" display_name="Advanced Topics in Highschool Mathematics" semester="2014_Gauel" org="MITx">
+  <chapter url_name="Definition_of_probability"/>
+</course>
