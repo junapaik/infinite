@@ -1,0 +1,28 @@
+<problem display_name="Coin flippling" linenum="10" tex_filename="./intro.tex">
+  <text>
+    <p>
+&#xCCA0;&#xC218;&#xB294; &#xB3D9;&#xC804;&#xC744; &#xB358;&#xC838;&#xC11C; &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC62C;&#xC9C0; &#xB4B7;&#xBA74;&#xC774; &#xB098;&#xC62C;&#xC9C0; &#xAD00;&#xCC30;&#xD558;&#xC600;&#xB2E4;. &#xB3D9;&#xC804;&#xC744; 10&#xBC88; &#xB358;&#xC84C;&#xC744; &#xACBD;&#xC6B0;, &#xB2E4;&#xC74C; &#xC9C8;&#xBB38;&#xC5D0; &#xB300;&#xB2F5;&#xD558;&#xC2DC;&#xC624;. </p>
+    <ul class="itemize">
+      <li>
+        <p>
+&#xC704; &#xD655;&#xB960;&#xC2E4;&#xD5D8;&#xC758; &#xD45C;&#xBCF8;&#xACF5;&#xAC04; &#xC9D1;&#xD569;&#xC758; &#xD06C;&#xAE30;&#xB97C; &#xAD6C;&#xD558;&#xC2DC;&#xC624;? <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xB3D9;&#xC804;&#xC758; &#xC55E;&#xBA74;&#xACFC; &#xB4B7;&#xBA74;&#xC774; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.2"><textline><responseparam type="tolerance" default="0.02"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xC55E;&#xBA74;&#xC774; &#xB4B7;&#xBA74;&#xBCF4;&#xB2E4; &#xB9CE;&#xC774; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.3"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+4&#xBC88;&#xC5F0;&#xC18D; &#xC55E;&#xBA74;&#xC774; &#xB4F1;&#xC7A5;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xB9C8;&#xC9C0;&#xB9C9;&#xC5D0; &#xB4B7;&#xBA74;&#xC774; &#xC5F0;&#xC18D;&#xD574;&#xC11C; &#xB4F1;&#xC7A5;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
+      </li>
+    </ul>
+  </text>
+</problem>
