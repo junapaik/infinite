@@ -7,11 +7,26 @@
 
 \begin{edXvertical}
 
-\begin{edXproblem}{Numerical response}
+\begin{edXproblem}{Coin flippling}
 
-동전을 10번 던질때, 동전의 앞면이 나온 숫자와 뒷면이 나온 경우의 숫자가 같을 확률을 구하라.
+동전의 앞면이 나올 확률과 뒷면이 나올 확률은 동일하다.동전을 한번 던졌을때,
+앞면이 나올 개별사건을 {\tt H(=Head)}, 뒷면을 {\tt T(=Tail)}라고 표시하기로 하자.
+동전을 10번 던질 경우, 다음 질문에 대답하시오.
 
-\edXabox{expect="0.1" type="numerical" tolerance='0.01'}
+
+\begin{itemize}
+\item 위 확률실험의 개별사건은 각각의 동전을 던지는 시행의 결과를 10번 기록한 것으로 볼 수 있다.
+예를 들면 앞에 앞면이 5번에 등장하고 뒤에 뒷면이 5번 등장할 경우, {\tt HHHHHTTTTT} 로 표기할 수 있다.
+표본공간$\omega$ 의 크기 $|\omega|$ 를 구하시오?
+\edXabox{expect="0.1" type="numerical" tolerance='0.001'}
+\item 동전의 앞면과 뒷면이 동일한 숫자로 나올 확률은?
+\edXabox{expect="0.2" type="numerical" tolerance='0.001'}
+\item 앞면이 뒷면보다 많이 나올 확률은?
+\edXabox{expect="0.3" type="numerical" tolerance='0.001'}
+\item 4번 연속 앞면이 나올 확률은? (어느 위치에서 4번 연속 앞면이 나올지는 중요하지 않다.) 
+\edXabox{expect="0.1" type="numerical" tolerance='0.001'}
+\item 뒷면이 연속해서 마지막에 나올 확률은? (제일 마지막에 뒷면이 1번만 연속해서 등장하는 것도 이에 속하는 거로 간주한다).
+\edXabox{expect="0.1" type="numerical" tolerance='0.001'}
 
 \end{edXproblem}
 \end{edXvertical}
