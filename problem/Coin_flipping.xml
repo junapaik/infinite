@@ -1,0 +1,28 @@
+<problem display_name="Coin flipping" linenum="10" tex_filename="./intro.tex">
+  <text>
+    <p>
+&#xB3D9;&#xC804;&#xC758; &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC62C; &#xD655;&#xB960;&#xACFC; &#xB4B7;&#xBA74;&#xC774; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740; &#xB3D9;&#xC77C;&#xD558;&#xB2E4; &#xAC00;&#xC815;&#xD558;&#xC790;. &#xB3D9;&#xC804;&#xC744; &#xD55C; &#xBC88; &#xB358;&#xC84C;&#xC744;&#xB54C;, &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC62C; &#xACBD;&#xC6B0; &#xADFC;&#xC6D0;&#xC0AC;&#xAC74;&#xC744; <tt class="tt">H(=Head)</tt>, &#xB4B7;&#xBA74;&#xC758; &#xACBD;&#xC6B0; <tt class="tt">T(=Tail)</tt>&#xB85C; &#xD45C;&#xC2DC;&#xD558;&#xAE30;&#xB85C; &#xD558;&#xC790;. &#xB3D9;&#xC804;&#xC744; 10&#xBC88; &#xB358;&#xC84C;&#xC744; &#xB54C;, &#xB2E4;&#xC74C; &#xC9C8;&#xBB38;&#xC5D0; &#xB300;&#xB2F5;&#xD558;&#xC2DC;&#xC624;. </p>
+    <ul class="itemize">
+      <li>
+        <p>
+&#xC704; &#xC2DC;&#xD589;&#xC758; &#xADFC;&#xC6D0;&#xC0AC;&#xAC74;&#xC740; &#xB3D9;&#xC804;&#xC744; 10&#xBC88; &#xB358;&#xC9C4; &#xAC01;&#xAC01;&#xC758; &#xACB0;&#xACFC;&#xAC00; &#xBAA8;&#xC778; &#xAC83;&#xC774;&#xB77C; &#xBCFC; &#xC218; &#xC788;&#xB2E4;(&#xC608;&#xB97C; &#xB4E4;&#xBA74;, &#xC55E;&#xBA74;&#xC774; &#xC55E;&#xC5D0; &#xC5F0;&#xC18D;&#xD574;&#xC11C; 5&#xBC88;, &#xB4B7;&#xBA74;&#xC774; &#xB4A4;&#xC5D0; 5&#xBC88; &#xB098;&#xC62C; &#xACBD;&#xC6B0;, <tt class="tt">HHHHHTTTTT</tt> &#xB85C; &#xD45C;&#xAE30;&#xD55C;&#xB2E4;). &#xC774; &#xACBD;&#xC6B0; &#xD45C;&#xBCF8;&#xACF5;&#xAC04;[mathjaxinline]\Omega[/mathjaxinline] &#xC758; &#xD06C;&#xAE30;(=[mathjaxinline]|\Omega |[/mathjaxinline]) &#xB294;? <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.001"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xB3D9;&#xC804;&#xC758; &#xC55E;&#xBA74;&#xACFC; &#xB4B7;&#xBA74;&#xC774; &#xB3D9;&#xC77C;&#xD55C; &#xC22B;&#xC790;&#xB85C; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.2"><textline><responseparam type="tolerance" default="0.001"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xC55E;&#xBA74;&#xC774; &#xB4B7;&#xBA74;&#xBCF4;&#xB2E4; &#xB9CE;&#xC774; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.3"><textline><responseparam type="tolerance" default="0.001"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+4&#xBC88; &#xC5F0;&#xC18D; &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? (&#xC5B4;&#xB290; &#xC704;&#xCE58;&#xC5D0;&#xC11C; 4&#xBC88; &#xC5F0;&#xC18D; &#xC55E;&#xBA74;&#xC774; &#xB098;&#xC62C;&#xC9C0;&#xB294; &#xC911;&#xC694;&#xD558;&#xC9C0; &#xC54A;&#xB2E4;.) <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.001"/></textline></numericalresponse> </p>
+      </li>
+      <li>
+        <p>
+&#xB4B7;&#xBA74;&#xC774; 2&#xBC88;&#xC774;&#xC0C1; &#xC5F0;&#xC18D;&#xD574;&#xC11C; &#xB9C8;&#xC9C0;&#xB9C9;&#xC5D0; &#xB098;&#xC62C; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.1"><textline><responseparam type="tolerance" default="0.001"/></textline></numericalresponse> </p>
+      </li>
+    </ul>
+  </text>
+</problem>
