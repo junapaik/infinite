@@ -1,23 +1,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{edXchapter}{Definition of probability}
+\begin{edXchapter}{Definition of Probability}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Problem 1
-\begin{edXsection}{Problems}
+% 확률의 기초 Problem 1
+\begin{edXsection}{HW Exercise}
 
 \begin{edXvertical}
 
 \begin{edXproblem}{Coin flippling}
 
-동전의 앞면이 나올 확률과 뒷면이 나올 확률은 동일하다.동전을 한번 던졌을때,
-앞면이 나올 개별사건을 {\tt H(=Head)}, 뒷면을 {\tt T(=Tail)}라고 표시하기로 하자.
-동전을 10번 던질 경우, 다음 질문에 대답하시오.
+동전의 앞면이 나올 확률과 뒷면이 나올 확률은 동일하다 가정하자. 동전을 한 번 던졌을때,
+앞면이 나올 경우 개별사건을 {\tt H(=Head)}, 뒷면의 경우 {\tt T(=Tail)}로 표시하기로 하자.
+동전을 10번 던졌을 때, 다음 질문에 대답하시오.
 
 
 \begin{itemize}
-\item 위 확률실험의 개별사건은 각각의 동전을 던지는 시행의 결과를 10번 기록한 것으로 볼 수 있다.
-예를 들면 앞에 앞면이 5번에 등장하고 뒤에 뒷면이 5번 등장할 경우, {\tt HHHHHTTTTT} 로 표기할 수 있다.
-표본공간$\omega$ 의 크기 $|\omega|$ 를 구하시오?
+\item 위 확률실험의 개별사건은 동전을 10번 던진 각각의 결과가 모인 것이라 볼 수 있다. 
+(예를 들면, 앞면이 앞에 연속해서 5번, 뒷면이 뒤에 5번 나올 경우, {\tt HHHHHTTTTT} 로 표기) 
+이럴 경우 표본공간$\Omega$ 의 크기(=$|\Omega|$) 를 구하시오?
 \edXabox{expect="0.1" type="numerical" tolerance='0.001'}
 \item 동전의 앞면과 뒷면이 동일한 숫자로 나올 확률은?
 \edXabox{expect="0.2" type="numerical" tolerance='0.001'}
@@ -27,9 +27,36 @@
 \edXabox{expect="0.1" type="numerical" tolerance='0.001'}
 \item 뒷면이 연속해서 마지막에 나올 확률은? (제일 마지막에 뒷면이 1번만 연속해서 등장하는 것도 이에 속하는 거로 간주한다).
 \edXabox{expect="0.1" type="numerical" tolerance='0.001'}
+\end{itemize}
 
 \end{edXproblem}
+
+% 조건부 확률 Problem 2
+\begin{edXproblem}{Hit-And-Run Taxi}
+
+한밤중에 택시 한 대가 뺑소니를 친 사건이 발생했다. 그 도시에는 두 개의 택시회사가 있는데,
+청색사의 택시는 모두 청색이고 녹색사의 택시는 모두 녹색으로 칠해져 있다. 그 외에 주어진 
+자료는 다음과 같다.
+\begin{itemize}
+\item 시내를 운행하고 있는 택시들 중 85\%는 녹색이고 나머지 15\%는 청색이다.
+\item 한 목격자는 뺑소니차가 청색이었다고 증언했다. 법정은 신뢰성 있는 실험을 통해 동일한 상황에서,
+정상 시력을 가진 사람이 차의 색상을 제대로 판별할 확률이 80\%라는 사실을 알아냈다. 즉 20\%의
+사람들은 차의 색상을 잘못 판단한다는 뜻이다.
+\end{itemize}
+
+그렇다면 사고 당일 현장에서 뺑소니친 택시가 청색일 확률은?
+\edXabox{expect="0.1" type="numerical" tolerance='0.001'}
+\end{edXproblem}
+
 \end{edXvertical}
 \end{edXsection}
 \end{edXchapter}
+
+
+
+
+
+
+
+
 

@@ -1,7 +1,8 @@
-<chapter display_name="Definition of probability" linenum="2" tex_filename="./intro.tex" refnum="1">
-  <sequential display_name="Problems" linenum="6" tex_filename="./intro.tex" refnum="1" url_name="Problems">
-    <vertical refnum="0" url_name="Problems_vertical">
+<chapter display_name="Definition of Probability" linenum="2" tex_filename="./intro.tex" refnum="1">
+  <sequential display_name="HW Exercise" linenum="6" tex_filename="./intro.tex" refnum="1" url_name="HW_Exercise">
+    <vertical refnum="0" url_name="HW_Exercise_vertical">
       <problem url_name="Coin_flippling"/>
+      <problem url_name="Hit-And-Run_Taxi"/>
     </vertical>
   </sequential>
 </chapter>
