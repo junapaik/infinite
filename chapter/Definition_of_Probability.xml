@@ -3,6 +3,23 @@
     <vertical refnum="0" url_name="HW_Exercise_vertical">
       <problem url_name="Coin_flipping"/>
       <problem url_name="Hit-And-Run_Taxi"/>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue">
+          <p>
+&#xD0DD;&#xC2DC;&#xAC00; &#xCCAD;&#xC0C9;&#xC778; &#xC0AC;&#xAC74;&#xC744; B, &#xD0DD;&#xC2DC;&#xAC00; &#xB179;&#xC0C9;&#xC778; &#xC0AC;&#xAC74;&#xC744; G(= [mathjaxinline]B^ c[/mathjaxinline]), &#xBAA9;&#xACA9;&#xC790;&#xAC00; &#xC0C9;&#xC744; &#xC815;&#xD655;&#xD78C; &#xBCF8; &#xC0AC;&#xAC74;&#xC744; T, &#xBAA9;&#xACA9;&#xC790;&#xAC00; &#xC0C9;&#xC744; &#xBD80;&#xC815;&#xD655;&#xD558;&#xAC8C; &#xBCF8; &#xC0AC;&#xAC74;&#xC744; F(=[mathjaxinline]T^ c[/mathjaxinline]) &#xB77C; &#xD558;&#xC790;. </p>
+          <p>
+&#xD0DD;&#xC2DC;&#xAC00; &#xCCAD;&#xC0C9;&#xC73C;&#xB85C; &#xBCF4;&#xC774;&#xB294; &#xC0AC;&#xAC74;&#xC740; [mathjaxinline](B \cap T) \cup (G \cap F)[/mathjaxinline], &#xD0DD;&#xC2DC;&#xAC00; &#xCCAD;&#xC0C9;&#xC778; &#xC0AC;&#xAC74;B&#xB294; [mathjaxinline](B \cap T) \cup (B \cap F)[/mathjaxinline] &#xB85C; &#xC4F8; &#xC218; &#xC788;&#xB2E4;. &#xC704; &#xB450;&#xC0AC;&#xAC74;&#xC758; &#xAD50;&#xC9D1;&#xD569;&#xC740; [mathjaxinline](B \cup T)[/mathjaxinline]&#xC774;&#xB2E4;. </p>
+          <p>
+&#xAD6C;&#xD558;&#xB294; &#xD655;&#xB960;&#xC740; </p>
+          <table id="a0000000002" class="equation" width="100%" cellspacing="0" cellpadding="7" style="table-layout:auto">
+            <tr>
+              <td class="equation" style="border:none">[mathjax]P(B |{(B \cup T) \cap (G \cup F)}) = \frac{P(B \cup T)}{P((B \cup T) \cap (G \cup F))} = frac{0.15 \times 0.8}{0.15 \times 0.8 + 0.85 \times 0.2} = frac{12/29}[/mathjax]</td>
+              <td class="eqnnum" style="width:20%;vertical-align:middle;text-align:left;border-style:hidden"/>
+            </tr>
+          </table>
+        </font>
+      </solution>
     </vertical>
   </sequential>
 </chapter>
