@@ -19,9 +19,14 @@
 이 경우 표본공간$\Omega$ 의 크기(=$|\Omega|$) 는?
 \edXabox{expect="1024" type="numerical" tolerance='0.001'}
 \begin{edXsolution}
-동전을 10번 던져서 나올 수 있는 모든 경우의 수는 %2^10%.
+동전을 10번 던져서 나오는 모든 경우의 수는 $2^10$.
+\end{edXsolution}
 \item 동전의 앞면과 뒷면이 동일한 숫자로 나올 확률은?
-\edXabox{expect="0.2" type="numerical" tolerance='0.001'}
+\edXabox{expect="0.246" type="numerical" tolerance='0.001'}
+\begin{edXsolution}
+10개의 동전 중 5개를 고르는 경우의 수는 $10C_5$.
+위의 문제에서 계산한 전체 표본공간의 크기는 1024이다. 그러므로 동전의 앞면이 5개 나올 사건의 확률은 $\frac{10C_5}{1024}$.
+\end{edXsolution}
 \item 앞면이 뒷면보다 많이 나올 확률은?
 \edXabox{expect="0.3" type="numerical" tolerance='0.001'}
 \item 4번 연속 앞면이 나올 확률은? (어느 위치에서 4번 연속 앞면이 나올지는 중요하지 않다.) 
