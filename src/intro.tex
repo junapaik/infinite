@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 확률의 기초 Problem 1
-\begin{edXsection}{HW Exercise}
+\begin{edXsection}{HW Exercise 1}
 
 \begin{edXvertical}
 
@@ -31,7 +31,7 @@
 \edXabox{expect="0.377" type="numerical" tolerance='0.01'}
 \begin{edXsolution}
 앞면이 뒷면보다 많이 나올 경우는 앞면이 6개 7개 8개 9개 10개 나올 경우이므로, 
-전체 경우의 수는 $10C_6 + 10C_7 + 10C_8 + 10C_9 + 10C_10 = 386 $ 이다.
+전체 경우의 수는 $10C_6 + 10C_7 + 10C_8 + 10C_9 + 10C_{10} = 386 $ 이다.
 따라서, 확률은 $\frac{386}{1024}$.
 \end{edXsolution}
 \item 4번 연속 앞면이 나올 확률은? (어느 위치에서 4번 연속 앞면이 나올지는 중요하지 않다.) 
@@ -55,7 +55,7 @@ n개의 문자열이 4개 이상 연속된 H를 포함하지 않을 확률은 $\
 (4)의 경우 $\frac{1}{16}P_{n-4}$이다. 따라서,
 $P_n = \frac{1}{2}P_{n-1} + \frac{1}{4}P_{n-2} + \frac{1}{8}P_{n-3} + \frac{1}{16}P_{n-4}$ (n>=5)
 
-$P_1 = P_2 = P_3 = 1$, $P4=\frac{15}{16}$이므로 $P5 = \frac{1}{2}\times\frac{15}{16} + \frac{1}{4}\times1 + \frac{1}{8}\times1 + \frac{1}{16}\times1 = \frac{29}{32}$
+$P_1 = P_2 = P_3 = 1$, $P4=\frac{15}{16}$이므로 $P_5 = \frac{1}{2}\times\frac{15}{16} + \frac{1}{4}\times1 + \frac{1}{8}\times1 + \frac{1}{16}\times1 = \frac{29}{32}$
 마찬가지로 $P_6$, $P_7$, ..., $P_{10}$을 구할 수 있다.
 우리가 구하는 확률은 $1-P_{10} = \frac{251}{1024}$.
 \end{edXsolution}
@@ -89,11 +89,11 @@ $P_1 = P_2 = P_3 = 1$, $P4=\frac{15}{16}$이므로 $P5 = \frac{1}{2}\times\frac{
 
 택시가 청색으로 보이는 사건은 $(B \cap T) \cup (G \cap F)$,
 택시가 청색인 사건B는  $(B \cap T) \cup (B \cap F)$ 로 쓸 수 있고,
-위 두사건의 교집합은 $(B \cup T)$이다.
+위 두사건의 교집합은 $(B \cap T)$이다.
 
 구하는 조건부 확률은 
 \begin{equation}
-P(B |(B \cup T) \cap (G \cup F)) = \frac{P(B \cup T)}{P((B \cup T) \cap (G \cup F))} = \frac{0.15 \times 0.8}{0.15 \times 0.8 + 0.85 \times 0.2} = \frac{12}{29}
+P(B |(B \cap T) \cup (G \cap F)) = \frac{P(B \cap T)}{P((B \cap T) \cup (G \cap F))} = \frac{0.15 \times 0.8}{0.15 \times 0.8 + 0.85 \times 0.2} = \frac{12}{29}
 \end{equation}
 \end{edXsolution}
 \end{edXproblem}
