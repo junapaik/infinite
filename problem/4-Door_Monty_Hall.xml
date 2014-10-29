@@ -21,7 +21,7 @@
     <ol class="enumerate">
       <li value="1">
         <p>
-&#xCC38;&#xAC00;&#xC790; &#xB9C8;&#xC774;&#xD074;&#xC740; &#xC6D0;&#xB798; &#xC120;&#xD0DD;&#xD55C; &#xBB38;&#xC744; &#xBC14;&#xAFB8;&#xC9C0; &#xC54A;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xB9C8;&#xC774;&#xD074;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <symbolicresponse expect="0.25"><textline correct_answer="0.25" math="1"/></symbolicresponse> </p>
+&#xCC38;&#xAC00;&#xC790; &#xB9C8;&#xC774;&#xD074;&#xC740; &#xC6D0;&#xB798; &#xC120;&#xD0DD;&#xD55C; &#xBB38;&#xC744; &#xBC14;&#xAFB8;&#xC9C0; &#xC54A;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xB9C8;&#xC774;&#xD074;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.25"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
       </li>
       <li value="2">
         <p>

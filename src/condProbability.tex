@@ -19,7 +19,7 @@
 
 \begin{enumerate}
 \item 참가자 마이클은 원래 선택한 문을 바꾸지 않기로 했다. 마이클이 선물을 획득할 확률은?
-\edXabox{expect="0.25" otype="numerical" tolerance='0.01'}
+\edXabox{expect="0.25" type="numerical" tolerance='0.01'}
 
 \item 다른 참가자 강호동은 선택을 바꾸어 나머지 두 개의 문중에서 같은 확률로 새로운 문을 고르기로 했다. 
 강호동이 선물을 획득할 확률은?
@@ -38,13 +38,14 @@
 하나씩 적혀 있는 6장의 카드가 들어 있다. 한 개의 주사위를 한 번 던져서 나온 눈의 수가 3의 배수이면 주머니 A에서 임의로 
 카드를 한장 꺼내고, 3의 배수가 아니면 주머니 B에서 임의로 카드를 한 장 꺼낸다. 
 주머니에서 꺼낸 카드에 적힌 수가 짝수일 때, 그 카드가 주머니 A에서 꺼낸 카드일 확률은?
+\edXabox{expect="0.286" type="numerical" tolerance='0.01'}
 \end{edXproblem}
 
 \begin{edXproblem}{Multiplication Theorem}
-조건부 확률의 기본 공식 $(P(B|A) = \frac{P(A \cap B)}{P(A)}$ 과 귀납법(induction)을 사용하여,
+조건부 확률의 기본 공식 $P(B|A) = \frac{P(A \cap B)}{P(A)}$ 과 귀납법(induction)을 사용하여,
 다음 식을 증명하시오.
 \begin{equation}
-P(E_1 \cap E_2 \cap ... \cap E_n) = P(E_1) * P(E_2|E_1) * P(E_3 | E1 \cap E2)...*P(E_n | E_1 \cap E_2 \cap ... \cap E_{n-1})
+P(E_1 \cap E_2 \cap ... \cap E_n) = P(E_1) \cdot P(E_2|E_1) \cdot P(E_3 | E1 \cap E2)...\cdot P(E_n | E_1 \cap E_2 \cap ... \cap E_{n-1})
 \end{equation}
 \end{edXproblem}
 
