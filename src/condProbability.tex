@@ -15,22 +15,44 @@
 \item 참가자는 4개의 문 중에서 선물이 있을 문을 선택한다.
 \item 수업시간때와 마찬가지로 사회자는 참가자가 고르지 않은 방중에서 선물이 있지 않은 문을 보여준다. 
 \end{itemize}
+다음 질문에 대답하시오.
 
 \begin{enumerate}
 \item 참가자 마이클은 원래 선택한 문을 바꾸지 않기로 했다. 마이클이 선물을 획득할 확률은?
-\edXabox{expect="0.25" type="numerical" tolerance='0.01'}
+\edXabox{expect="0.25" otype="numerical" tolerance='0.01'}
 
-\item 다른 참가자 강호동은 선택을 바꾸어 나머지 두 개의 문중에서 같은 확률로 새로운 문을 고르기로 했다. 강호동이 선물을 획득할 확률은?
+\item 다른 참가자 강호동은 선택을 바꾸어 나머지 두 개의 문중에서 같은 확률로 새로운 문을 고르기로 했다. 
+강호동이 선물을 획득할 확률은?
 \edXabox{expect="0.375" type="numerical" tolerance='0.001'}
 
-\item 문제의 규칙을 다시 바꾸어서, 각각의 문에 1, 2, 3, 4 번호를 부여한 후, 사회자는 선물이 있지 않은 문을 보여줄 때 가장 적은 숫자의 문을 보여주기로 한다. 이 사실을 아는 참가자 강호동은 영리하게 선택을 바꾸고 이때 가장 적은 숫자를 가진 문을 선택하기로 했다. 강호동이 선물을 획득할 확률은?
+\item 문제의 규칙을 다시 바꾸어서 이번에는 각각의 문에 1, 2, 3, 4 번호를 부여한 후, 
+사회자는 선물이 있지 않은 문을 보여줄 때 가장 적은 숫자의 문을 보여주기로 한다. 
+이 사실을 아는 참가자 강호동은 영리하게 선택을 바꾸고 이때 선택할 수 있는 문중에서 가장 적은 숫자의 문을 선택하기로 했다. 
+강호동이 선물을 획득할 확률은?
 \edXabox{expect="0.5" type="numerical" tolerance='0.1'}
 \end{enumerate}
+\end{edXproblem}
+
+\begin{edXproblem}{Dice-Card}
+주머니 A에는 1, 2, 3, 4, 5의 숫자가 하나씩 적혀 있는 5장의 카드가 들어 있고, 주머니 B에는 1, 2, 3, 4, 5, 6의 숫자가 
+하나씩 적혀 있는 6장의 카드가 들어 있다. 한 개의 주사위를 한 번 던져서 나온 눈의 수가 3의 배수이면 주머니 A에서 임의로 
+카드를 한장 꺼내고, 3의 배수가 아니면 주머니 B에서 임의로 카드를 한 장 꺼낸다. 
+주머니에서 꺼낸 카드에 적힌 수가 짝수일 때, 그 카드가 주머니 A에서 꺼낸 카드일 확률은?
+\end{edXproblem}
+
+\begin{edXproblem}{Multiplication Theorem}
+조건부 확률의 기본 공식 $(P(B|A) = \frac{P(A \cap B)}{P(A)}$ 과 귀납법(induction)을 사용하여,
+다음 식을 증명하시오.
+\begin{equation}
+P(E_1 \cap E_2 \cap ... \cap E_n) = P(E_1) * P(E_2|E_1) * P(E_3 | E1 \cap E2)...*P(E_n | E_1 \cap E_2 \cap ... \cap E_{n-1})
+\end{equation}
 \end{edXproblem}
 
 \end{edXvertical}
 \end{edXsection}
 \end{edXchapter}
+
+
 
 
  

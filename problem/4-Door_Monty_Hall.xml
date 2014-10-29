@@ -16,10 +16,12 @@
 &#xC218;&#xC5C5;&#xC2DC;&#xAC04;&#xB54C;&#xC640; &#xB9C8;&#xCC2C;&#xAC00;&#xC9C0;&#xB85C; &#xC0AC;&#xD68C;&#xC790;&#xB294; &#xCC38;&#xAC00;&#xC790;&#xAC00; &#xACE0;&#xB974;&#xC9C0; &#xC54A;&#xC740; &#xBC29;&#xC911;&#xC5D0;&#xC11C; &#xC120;&#xBB3C;&#xC774; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xBB38;&#xC744; &#xBCF4;&#xC5EC;&#xC900;&#xB2E4;. </p>
       </li>
     </ul>
+    <p>
+ &#xB2E4;&#xC74C; &#xC9C8;&#xBB38;&#xC5D0; &#xB300;&#xB2F5;&#xD558;&#xC2DC;&#xC624;. </p>
     <ol class="enumerate">
       <li value="1">
         <p>
-&#xCC38;&#xAC00;&#xC790; &#xB9C8;&#xC774;&#xD074;&#xC740; &#xC6D0;&#xB798; &#xC120;&#xD0DD;&#xD55C; &#xBB38;&#xC744; &#xBC14;&#xAFB8;&#xC9C0; &#xC54A;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xB9C8;&#xC774;&#xD074;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.25"><textline><responseparam type="tolerance" default="0.01"/></textline></numericalresponse> </p>
+&#xCC38;&#xAC00;&#xC790; &#xB9C8;&#xC774;&#xD074;&#xC740; &#xC6D0;&#xB798; &#xC120;&#xD0DD;&#xD55C; &#xBB38;&#xC744; &#xBC14;&#xAFB8;&#xC9C0; &#xC54A;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xB9C8;&#xC774;&#xD074;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <symbolicresponse expect="0.25"><textline correct_answer="0.25" math="1"/></symbolicresponse> </p>
       </li>
       <li value="2">
         <p>
@@ -27,7 +29,7 @@
       </li>
       <li value="3">
         <p>
-&#xBB38;&#xC81C;&#xC758; &#xADDC;&#xCE59;&#xC744; &#xB2E4;&#xC2DC; &#xBC14;&#xAFB8;&#xC5B4;&#xC11C;, &#xAC01;&#xAC01;&#xC758; &#xBB38;&#xC5D0; 1, 2, 3, 4 &#xBC88;&#xD638;&#xB97C; &#xBD80;&#xC5EC;&#xD55C; &#xD6C4;, &#xC0AC;&#xD68C;&#xC790;&#xB294; &#xC120;&#xBB3C;&#xC774; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xBB38;&#xC744; &#xBCF4;&#xC5EC;&#xC904; &#xB54C; &#xAC00;&#xC7A5; &#xC801;&#xC740; &#xC22B;&#xC790;&#xC758; &#xBB38;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xAE30;&#xB85C; &#xD55C;&#xB2E4;. &#xC774; &#xC0AC;&#xC2E4;&#xC744; &#xC544;&#xB294; &#xCC38;&#xAC00;&#xC790; &#xAC15;&#xD638;&#xB3D9;&#xC740; &#xC601;&#xB9AC;&#xD558;&#xAC8C; &#xC120;&#xD0DD;&#xC744; &#xBC14;&#xAFB8;&#xACE0; &#xC774;&#xB54C; &#xAC00;&#xC7A5; &#xC801;&#xC740; &#xC22B;&#xC790;&#xB97C; &#xAC00;&#xC9C4; &#xBB38;&#xC744; &#xC120;&#xD0DD;&#xD558;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xAC15;&#xD638;&#xB3D9;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.5"><textline><responseparam type="tolerance" default="0.1"/></textline></numericalresponse> </p>
+&#xBB38;&#xC81C;&#xC758; &#xADDC;&#xCE59;&#xC744; &#xB2E4;&#xC2DC; &#xBC14;&#xAFB8;&#xC5B4;&#xC11C; &#xC774;&#xBC88;&#xC5D0;&#xB294; &#xAC01;&#xAC01;&#xC758; &#xBB38;&#xC5D0; 1, 2, 3, 4 &#xBC88;&#xD638;&#xB97C; &#xBD80;&#xC5EC;&#xD55C; &#xD6C4;, &#xC0AC;&#xD68C;&#xC790;&#xB294; &#xC120;&#xBB3C;&#xC774; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xBB38;&#xC744; &#xBCF4;&#xC5EC;&#xC904; &#xB54C; &#xAC00;&#xC7A5; &#xC801;&#xC740; &#xC22B;&#xC790;&#xC758; &#xBB38;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xAE30;&#xB85C; &#xD55C;&#xB2E4;. &#xC774; &#xC0AC;&#xC2E4;&#xC744; &#xC544;&#xB294; &#xCC38;&#xAC00;&#xC790; &#xAC15;&#xD638;&#xB3D9;&#xC740; &#xC601;&#xB9AC;&#xD558;&#xAC8C; &#xC120;&#xD0DD;&#xC744; &#xBC14;&#xAFB8;&#xACE0; &#xC774;&#xB54C; &#xC120;&#xD0DD;&#xD560; &#xC218; &#xC788;&#xB294; &#xBB38;&#xC911;&#xC5D0;&#xC11C; &#xAC00;&#xC7A5; &#xC801;&#xC740; &#xC22B;&#xC790;&#xC758; &#xBB38;&#xC744; &#xC120;&#xD0DD;&#xD558;&#xAE30;&#xB85C; &#xD588;&#xB2E4;. &#xAC15;&#xD638;&#xB3D9;&#xC774; &#xC120;&#xBB3C;&#xC744; &#xD68D;&#xB4DD;&#xD560; &#xD655;&#xB960;&#xC740;? <numericalresponse answer="0.5"><textline><responseparam type="tolerance" default="0.1"/></textline></numericalresponse> </p>
       </li>
     </ol>
   </text>
