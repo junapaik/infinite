@@ -1,0 +1,32 @@
+<problem display_name="Bad Exam" linenum="27" tex_filename="./bayesian.tex">
+  <text>
+    <p>
+&#xD48D;&#xC0B0;&#xACE0;&#xB4F1;&#xD559;&#xAD50; &#xC218;&#xD559;&#xC2DC;&#xD5D8;&#xC5D0;&#xB294; &#xB298; 10 &#xD37C;&#xC13C;&#xD2B8;&#xC758; &#xC624;&#xB958;&#xAC00; &#xC788;&#xB2E4;. &#xBC15;&#xBBF8;&#xC120; &#xC120;&#xC0DD;&#xB2D8;&#xC740; &#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xB294; &#xC9C0; &#xBB3C;&#xC5C8;&#xC744; &#xB54C;, 80 &#xD37C;&#xC13C;&#xD2B8; &#xC815;&#xD655;&#xD788; &#xB300;&#xB2F5;&#xD55C;&#xB2E4; (&#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC5C6;&#xC744;&#xB54C;&#xB3C4; &#xB9C8;&#xCC2C;&#xAC00;&#xC9C0;&#xC774;&#xB2E4;). &#xAC15;&#xD638;&#xB3D9; &#xC120;&#xC0DD;&#xB2D8;&#xC740; 75 &#xD37C;&#xC13C;&#xD2B8; &#xC815;&#xD655;&#xD788; &#xB300;&#xB2F5;&#xD55C;&#xB2E4;. &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xD655;&#xB960; &#xC0AC;&#xAC74;&#xC744; &#xC815;&#xC758;&#xD558;&#xC790;. </p>
+    <ul class="itemize">
+      <li>
+        <p>
+E := [&#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xC74C;] </p>
+      </li>
+      <li>
+        <p>
+T := [&#xBC15;&#xBBF8;&#xC120; &#xC120;&#xC0DD;&#xB2D8;&#xC774; &#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xC9C4;&#xB2E8;&#xD568;] </p>
+      </li>
+      <li>
+        <p>
+L := [&#xAC15;&#xD638;&#xB3D9; &#xC120;&#xC0DD;&#xB2D8;&#xC774; &#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xC9C4;&#xB2E8;&#xD568;] </p>
+      </li>
+    </ul>
+    <p>
+&#xB2E4;&#xC74C; &#xC9C8;&#xBB38;&#xC5D0; &#xB300;&#xB2F5;&#xD558;&#xC2DC;&#xC624;. </p>
+    <ol class="enumerate">
+      <li value="1">
+        <p>
+&#xD48D;&#xC0B0;&#xACE0;&#xB4F1;&#xD559;&#xAD50; &#xD559;&#xC0DD; A&#xB294; &#xC2DC;&#xD5D8; &#xBB38;&#xC81C;&#xAC00; &#xC798;&#xBABB;&#xB41C; &#xAC83;&#xC778;&#xC9C0; &#xC758;&#xC2EC;&#xB418;&#xC5B4;, &#xBC15;&#xBBF8;&#xC120; &#xC120;&#xC0DD;&#xB2D8;&#xC5D0;&#xAC8C; &#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xB294;&#xC9C0; &#xBB3C;&#xC5C8;&#xB354;&#xB2C8;, &#xC624;&#xB958;&#xAC00; &#xC5C6;&#xB2E4;&#xACE0; &#xD558;&#xC600;&#xB2E4;. &#xD55C;&#xBC88; &#xB354; &#xD655;&#xC778;&#xD558;&#xAE30; &#xC704;&#xD574; &#xAC15;&#xD638;&#xB3D9; &#xC120;&#xC0DD;&#xB2D8;&#xAED8; &#xBB3C;&#xC5C8;&#xB354;&#xB2C8;, &#xC624;&#xB958;&#xAC00; &#xC788;&#xB2E4;&#xB77C;&#xACE0; &#xB300;&#xB2F5;&#xD558;&#xC600;&#xB2E4;. &#xAC15;&#xD638;&#xB3D9;&#xACFC; &#xBC15;&#xBBF8;&#xC120; &#xC120;&#xC0DD;&#xB2D8;&#xC758; &#xB300;&#xB2F5;&#xD558;&#xB294; &#xC0AC;&#xAC74;&#xC740; &#xC11C;&#xB85C; &#xB3C5;&#xB9BD;&#xC0AC;&#xAC74;&#xC774;&#xB2E4;. &#xC2E4;&#xC81C; &#xBB38;&#xC81C;&#xC5D0; &#xC624;&#xB958;&#xAC00; &#xC788;&#xC744; &#xD655;&#xB960;&#xC740;? </p>
+      </li>
+      <li value="2">
+        <p>
+&#xC0AC;&#xAC74; T&#xB294; &#xC0AC;&#xAC74; L&#xACFC; &#xB3C5;&#xB9BD;&#xC0AC;&#xAC74;&#xC778;&#xAC00;(&#xACE7;, [mathjaxinline]P(T|L) = P(T)[/mathjaxinline])? </p>
+      </li>
+    </ol>
+  </text>
+</problem>
