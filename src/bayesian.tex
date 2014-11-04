@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{edXchapter}{bayesian}
+\begin{edXchapter}{Bayesian}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 확률의 기초 Problem 1
@@ -9,38 +9,42 @@
 
 \begin{edXproblem}{Weatherman}
 베이즈 정리는 다음과 같다.
-%\begin{equation}
-%P(A|B) = \frac{P(B|A) \times P(A)}{P(B)} 
-%\end{equation}
+\begin{equation}
+P(A|B) = \frac{P(B|A) \times P(A)}{P(B)} 
+\end{equation}
 \begin{enumerate}
 \item 베이즈 정리를 증명하시오.
-\item 일기예보 아나운서인 강호동은 매일 걸어서 방송국으로 출근한다. 보통 비가 올 확률 P(비가 내림) 은  0.30 이다.
-강호동은 비가 내릴거라고 예상한 날 우산을 가져가기도 하지만, 햇볓이 강한 날은 자외선을 차단하기 
-위해 가져가기도 한다. 강호동이 우산을 가져올 확률은 $P(rain)$은 0.40이다. 일기예보관 답게 강호동은 보통 
-비를 잘 맞지 않는다. 강호동이 비를 맞지 않을 확률 $P(umberella | rain)$ = 0.80 이다.
-강호동이 우산을 들고 출근한 날, 비가 실제로 왔을 확률은? (베이즈 정리를 사용하시오.)
+
+\item 기상캐스터인 A는  매일 걸어서 방송국으로 출근한다. 보통 비가 올 확률 {\tt\LARGE P(rain)} 은  0.30 이다.
+A는 비가 내릴거라고 예상한 날 우산을 가져가기도 하지만, 햇볕이 강한 날은 자외선을 차단하기 
+위해 우산을 가져가기도 한다. A가 우산을 가져 갈 확률은 {\tt\LARGE P(rain)}은 0.40 이다. 
+기상캐스터답게 A씨는 보통 비를 잘 맞지 않는다. A가 비를 맞지 않을 확률은 {\tt\LARGE P(umbrella | rain)} 은 0.80 이다.
+A가 우산을 들고 출근한 날, 비가 내렸을 확률은? (베이즈 정리를 사용하시오.)
+\edXabox{expect="0.00" type="numerical" tolerance='0.01'}
 \item 사건의 원인과 결과 관점에서 베이즈 정리의 의미를 서술하시오.
-(http://ko.wikipedia.org/wiki/베이즈_정리, http://en.wikipedia.org/wiki/Bayes'_theorem 참조)
+(\href{http://ko.wikipedia.org/wiki/베이즈_정리} 참조)
 \end{enumerate}
 \end{edXproblem}
 
 \begin{edXproblem}{Bad Exam}
-풍산고등학교 수학시험에는 늘 10 퍼센트의 오류가 있다. 박미선 선생님은 문제에 오류가 있는 지 물었을 때,
-80 퍼센트 정확히 대답한다 (문제에 오류가 없을때도 마찬가지이다). 강호동 선생님은 75 퍼센트 정확히 대답한다.
+풍산고등학교 수학시험에는 늘 10 퍼센트의 오류가 있다. A 선생님은 문제에 오류가 있는 지 물었을 때,
+80 퍼센트 정확히 대답한다 (문제에 오류가 없을때도 마찬가지이다). B 선생님은 75 퍼센트 정확히 대답한다.
 다음과 같이 확률 사건을 정의하자.
 \begin{itemize}
 \item E := [문제에 오류가 있음]
-\item T := [박미선 선생님이 문제에 오류가 있다고 진단함]
-\item L := [강호동 선생님이 문제에 오류가 있다고 진단함]
+\item T := [A 선생님이 문제에 오류가 있다고 진단함]
+\item L := [B 선생님이 문제에 오류가 있다고 진단함]
 \end{itemize}
 
 다음 질문에 대답하시오.
 \begin{enumerate} 
-\item 풍산고등학교 학생 A는 시험 문제가 잘못된 것인지 의심되어, 
-박미선 선생님에게 문제에 오류가 있는지 물었더니, 오류가 없다고 하였다.
-한번 더 확인하기 위해 강호동 선생님께 물었더니, 오류가 있다라고 대답하였다.
-강호동과 박미선 선생님의 대답하는 사건은 서로 독립사건이다. 실제 문제에 오류가 있을 확률은?
-\item 사건 T는 사건 L과 독립사건인가(곧, $P(T|L) = P(T)$)?
+\item 풍산고등학교 학생 C는 시험 문제가 잘못된 것인지 의심되어, 
+A 선생님에게 문제에 오류가 있는지 물었더니, A선생님은 '오류가 없다'라고 대답했다.
+한번 더 확인하기 위해 B 선생님에게 물었더니, 오류가 있다라고 대답하였다.
+실제 문제에 오류가 있을 확률은?
+\edXabox{expect="0.00" type="numerical" tolerance='0.01'}
+\item 사건 T는 사건 L과 독립사건인가? (곧, {\tt\LARGE P(T|L) = P(T)})
+\edXabox{expect="0.00" type="numerical" tolerance='0.01'}
 \end{enumerate}
 \end{edXproblem}
 
@@ -49,7 +53,8 @@
 카드 1장을 꺼내어 스티커 1개를 더 붙인 후 다시 주머니에 넣는 시행을 반복한다. 주머니 안의
 각 카드에 붙어 있는 스티커의 개수를 3으로 나눈 나머지가 모두 같으지는 사건을 A라고 하자.
 시행을 6번 하였을 때, 1회부터 5회까지는 사건 A가 일어나지 않고, 6회에서 사건 A가 일어날 
-확률을 $\frac{q}{p}$라고 하자. $p+q$의 값을 구하시오 (p와 q는 서로소인 자연수이다)
+확률을 {\tt\LARGE\frac{q}{p}}라고 하자. {\tt\LARGEp+q}의 값을 구하시오 (p와 q는 서로소인 자연수이다)
+\edXabox{expect="0.00" type="numerical" tolerance='0.01'}
 \end{edXproblem}
 
 \end{edXvertical}
